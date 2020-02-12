@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Verdana');
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana",Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+   
+    
+}
+
+.Summary{
+   float: left;
+    text-align: justify;
+    word-wrap: normal;
+    width: 100%;
+    display: inline-block;
+    width: 40%;
+    
+}
+.Summary-text{
+    
+    text-align: justify;
+    word-wrap: normal;
+    padding-bottom: 30px;
+    display: block;
+}
+.Summary h1{
+    font-size: 18px;
+     text-align: center;
+     
+    word-wrap: normal;
+   
+
+}
+.main-info{
+    border: 10px solid #0b6654;
+    background-color: #0b6654;
+    display:block;
+    
+}
+.Skills{
+    float: left;
+    text-align: center;
+    word-wrap: normal;
+    
+    display: inline-block;
+     width: 15%;
+     
+}
+.education{
+    
+    text-align: center;
+    word-wrap: normal;
+    padding: 0px;
+    display: inline-block;
+     width: 20%;
+    
+}
+.exp{
+    text-align: center;
+    word-wrap: normal;
+    padding: 0px;
+    display: inline-block;
+     width: 20%;
+    
+}
+ul{
+    list-style:url(img/icons8-css3.svg);
+}
+li{ 
+    text-align: left;
+}
+
+.about{
+    background: url('img/me1.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 30%;
+    height: 650px;
+    min-width:650px;
+   
+}
+header{
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+.wrapper{
+    max-width: 1024px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image: url('img/shum-tekstury.jpg');
+}
+.navigation{
+    display: inline-block;
+    width: 40%;
+}
+.logo{
+    padding-left: 20px;
+    color:#ffffff;
+    display: inline-block;
+    width: 40%;
+    }
+.nav-link:hover {
+    color: #0b6654;
+}
+
+.exp h1{
+    margin-bottom:55px ;
+}
+table{
+display: inline-table;  
+width: 100%;  
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding-left: 150px;
+    text-align: justify;
+}
+code{
+    display: block;
+	font-style: italic;
+	text-align: justify;
+	font-size: 16px;
+	padding: 25px;
+    border: 3px solid orange;
+    background-color: rgb(49, 49, 49);
+}
+.code{
+    padding: 10px;
+    border-top:10px solid #0b6654 ;
+    background-color:#229981;
+}
+.English{
+    background-color: #696969;
+    border: 10px solid #696969;
+}
+.English p{
+    word-wrap: normal;
+    text-align: justify;
+    float: left;
+}
+footer{
+    padding: 50px;
+    background-color: #696969;
+}
